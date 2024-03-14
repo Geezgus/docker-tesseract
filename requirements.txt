@@ -1,0 +1,4 @@
+pytesseract
+watchdog[watchmedo]
+pillow
+pdf2image

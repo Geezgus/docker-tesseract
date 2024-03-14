@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    volumes:
+      - .:/app
+    command: watchmedo auto-restart -p "*.py" --no-restart-on-command-exit python3 main.py
